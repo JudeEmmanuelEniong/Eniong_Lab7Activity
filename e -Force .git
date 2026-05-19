@@ -1,0 +1,74 @@
+[33m050286b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m feat[Jacinth]: set up typescript path aliases — the code relied on absolute imports that were failing — it now correctly maps @app paths to the source folder
+[33m0894317[m feat[Jacinth]: add styles.less — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33me5a8eb7[m feat[Jacinth]: add polyfills.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m3111d0d[m feat[Jacinth]: implement app bootstrapper — the frontend lacked an entry point to launch the framework — it now initializes the root module dynamically
+[33m32a3aeb[m feat[Jacinth]: add index.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m8752482[m feat[Jacinth]: add local environment variables — the API calls needed a base URL for local testing — it now specifies the localhost port for development
+[33mdc03647[m feat[Jacinth]: add environment.prod.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m2799b89[m feat[Jacinth]: add update.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m50d7c80[m feat[Jacinth]: implement profile editing interface — users couldn't change their personal information — it now provides a pre-filled form to update names and emails securely
+[33m9d67265[m feat[Jacinth]: add profile.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m5ba0ef1[m feat[Jacinth]: add profile-routing.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mbaa2019[m feat[Jacinth]: add layout.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m700fd14[m feat[Jacinth]: add layout.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m13b12b6[m feat[Jacinth]: add details.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m49dbd03[m feat[Jacinth]: add details.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m05c1396[m feat[Jacinth]: register global providers and components — angular required a centralized module registry — it now imports HTTP interceptors and declares root components
+[33mc93b802[m feat[Jacinth]: build root component logic — the app needed a top-level controller to handle user sessions — it now tracks authentication state and handles logouts
+[33m1c0b277[m feat[Jacinth]: implement main layout and dark navbar — the root interface was visually blending with the background — it now features a high-contrast dark navigation bar
+[33mf9fed96[m feat[Jacinth]: establish root routing map — the application navigation was broken due to missing templates — it now safely lazy-loads feature modules and enforces auth guards
+[33mf543ce5[m feat[Jacinth]: add subnav.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m20f23cb[m feat[Jacinth]: add subnav.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m4fb4356[m feat[Jacinth]: add overview.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m8a21be1[m feat[Jacinth]: add overview.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m0d10fe4[m feat[Jacinth]: add layout.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m07747b6[m feat[Jacinth]: add layout.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m914f538[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33m5f5d033[m feat[Jacinth]: add home.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mf26afb0[m feat[Jacinth]: add home.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m4075521[m feat[Jacinth]: add admin.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m3e6e91b[m feat[Jacinth]: add admin-routing.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m21af1eb[m feat[Jacinth]: add list.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m5660b85[m feat[Jacinth]: build admin user datatable — administrators needed a way to view all registered users — it now fetches and displays accounts in a managed list
+[33m0e2b75d[m feat[Jacinth]: add add-edit.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m59df237[m feat[Jacinth]: add add-edit.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m18b81ee[m feat[Jacinth]: add accounts.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m64994a6[m feat[Jacinth]: add accounts-routing.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m312dd7d[m feat[Jacinth]: add verify-email.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33md137607[m feat[Jacinth]: add verify-email.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m9e28381[m feat[Jacinth]: add reset-password.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m82c1fca[m feat[Jacinth]: add reset-password.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m82d2a65[m feat[Jacinth]: wire up user signup form — the app needed to process new registrations — it now validates input data and creates a real entity via the API
+[33m96c833c[m feat[Jacinth]: build registration interface — new users needed a place to create accounts — it now gathers user details like name, email, and matching passwords
+[33md326a7d[m feat[Jacinth]: implement login authentication logic — the sign-in form needed to communicate with the service — it now submits credentials and routes the user on success
+[33me8e3c3d[m feat[Jacinth]: lay out login form — returning users lacked a way to access their dashboard — it now provides an email and password entry with validation states
+[33m86c70dd[m feat[Jacinth]: add layout.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m4c23f09[m feat[Jacinth]: add layout.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mff121d9[m feat[Jacinth]: add forgot-password.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m669d3d2[m feat[Jacinth]: add forgot-password.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33me43992a[m feat[Jacinth]: add account.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mfa85556[m feat[Jacinth]: add account-routing.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m2b9b8c5[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33m049aeae[m feat[Jacinth]: add alert.service.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m25143a7[m feat[Jacinth]: add account.service.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33me0a3040[m feat[Jacinth]: add role.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33md456070[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33mebd5ed4[m feat[Jacinth]: add alert.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mdf17755[m feat[Jacinth]: add account.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m6953bd0[m feat[Jacinth]: add must-match.validator.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m3f3a78c[m feat[Jacinth]: add jwt.interceptor.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m749a7a4[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33m78eb278[m feat[Jacinth]: build mock database interceptor — we needed a way to simulate logins without a real server — it now intercepts auth HTTP calls and manages local storage accounts
+[33m114092a[m feat[Jacinth]: add route protection logic — private pages were vulnerable to unauthorized access — it now checks the token and role before letting users navigate to admin or profile views
+[33mac05d50[m feat[Jacinth]: implement alert component controller — the notification UI needed to react to real-time events — it now binds to the alert service and handles structural changes safely
+[33m6cbfcf6[m feat[Jacinth]: design alert notification UI — users needed to see feedback when actions succeed or fail — it now renders a dismissible bootstrap alert box
+[33m6ffde39[m feat[Jacinth]: add core project configurations and dependencies — the app needed standard module requirements to bootstrap — it now includes the platform-browser-dynamic package
+[33ma5ceeed[m feat[Jacinth]: add package-lock.json — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m0cc6753[m feat[Jacinth]: add karma.conf.js — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33mdb47bb0[m feat[Jacinth]: configure angular workspace settings — the build system required specific asset and style paths — it now knows how to compile the project structure
+[33m3451e61[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33m9d87252[m feat[Jacinth]: export index.ts logic — compiler needed predictable import paths — it now explicitly exports all relevant features in this directory
+[33mdd3c15e[m feat[Jacinth]: add home.module.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m1cb69d8[m feat[Jacinth]: add home.component.ts — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33ma6680d7[m feat[Jacinth]: add home.component.html — the file was required to complete the module architecture — it is now fully implemented and integrated
+[33m1975459[m Initial Commit
